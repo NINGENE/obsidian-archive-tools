@@ -6,7 +6,7 @@
 ._*
 
 # Custom folder icons
-Icon
+Icon
 
 # Volume root files
 .DocumentRevisions-V100
@@ -29,3 +29,28 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### Obsidian local settings
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+### Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+### Logs
+*.log
+
+### Local test data
+test_data/
+sandbox/
+temp/
+tmp/
+
+### Real archive data
+ArtArchive/originals/
+ArtArchive/thumbnails/
+ArtArchive/pdfs/
+ArtArchive/videos/
