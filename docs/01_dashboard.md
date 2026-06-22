@@ -8,15 +8,11 @@ Obsidian + GitHub を中心に、資料管理ワークフローと自動化ツ�
 
 ## 今週やること
 
-- [ ] [[02_roadmap]] を作成する
-- [ ] [[03_backlog]] に初期タスクを整理する
-- [ ] [[04_current_sprint]] に今週の作業範囲を書く
-- [ ] [[metadata-template-v1.1]] を確認する
-- [ ] [[virtual-folder-rule]] を確認する
+- [ ] `metadata-template-v1.2` の実運用テスト
 
 ## 今やっていること
 
-- [ ] ObsidianとGitHubを使った進捗管理の初期構成作成
+- [ ] `metadata-template-v1.2` の実運用テスト
 
 ## 詰まっていること
 
@@ -33,6 +29,13 @@ Obsidian + GitHub を中心に、資料管理ワークフローと自動化ツ�
 
 - [x] 進捗管理はNotionではなく、まずObsidianとGitHubで進める方針に決定
 - [x] docs内のファイル番号は `00_project_overview.md` を考慮して `01_` 以降にする方針に決定
+- [x] [[02_roadmap]] を作成する
+- [x] [[03_backlog]] に初期タスクを整理する
+- [x] [[04_current_sprint]] に今週の作業範囲を書く
+- [x] [[metadata-template-v1.1]] を確認する
+- [x] [[virtual-folder-rule]] を確認する
+- [x] ObsidianとGitHubを使った進捗管理の初期構成作成
+- [x] `metadata-template-v1.1` の実運用テスト
 
 ## 関連ページ
 
