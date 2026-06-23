@@ -26,15 +26,15 @@ Python自動化に入る前に、Obsidian側の資料ノート構造・ID命名�
   
 ## 追加で今週やること  
   
-- [ ] [[metadata-template-v1.3]] を `docs/10_specs/` に追加する  
-- [ ] `metadata-template v1.3` を使って画像1枚を手動登録する  
-- [ ] `REF-YYYYMMDD-HHMMSS` 形式のIDを実際に使ってみる  
+- [x] [[metadata-template-v1.3]] を `docs/10_specs/` に追加する  
+- [x] `metadata-template v1.3` を使って画像1枚を手動登録する  
+- [x] `REF-YYYYMMDD-HHMMSS` 形式のIDを実際に使ってみる  
 - [ ] 実画像とサムネイルの命名ルールを確認する  
-- [ ] サムネイルクリックで実画像が開くか確認する  
+- [x] サムネイルクリックで実画像が開くか確認する  
 - [ ] `work_title` / `characters` の入力感を確認する  
 - [ ] `tags` / `virtual_folders` の分離が自然か確認する  
-- [ ] Bases formulaでサムネイル表示できるか確認する  
-- [ ] Notes Explorerで資料ノートを一覧表示できるか確認する  
+- [x] Bases formulaでサムネイル表示できるか確認する  
+- [x] Notes Explorerで資料ノートを一覧表示できるか確認する  
 - [ ] 作者ノートテンプレート v1 の内容を検討する  
   
 ---  
