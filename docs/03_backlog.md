@@ -20,6 +20,14 @@
 - [ ] `.gitignore` の内容を確認する
 - [ ] READMEからdocsへの導線を作る
 - [ ] Obsidianで開いたときに見やすいリンク構成を確認する
+- 作者ノートテンプレート v1 を作る
+- 作品ノートテンプレート v1 を作るか検討する
+- キャラクターノートテンプレート v1 を作るか検討する
+- `virtual_folders` / `vfolders` の命名を最終決定する
+- タグ運用ルールを整理する
+- Bases formulaでサムネイル表示する方法を検証する
+- Notes Explorerが資料ブラウザとして使えるか検証する
+- 自作アプリでギャラリー表示サイズ変更を要件化する
 
 ---
 
@@ -31,6 +39,12 @@
 - [ ] virtual_folder フィールドの書き方を決める
 - [ ] tags と virtual_folder の使い分けルールを書く
 - [ ] Obsidian内でのリンク表記ルールを決める
+- `metadata-template v1.3` を `docs/10_specs/` に追加する
+- `metadata-template v1.3` を使って画像1枚を手動登録する
+- `REF-YYYYMMDD-HHMMSS` 形式のIDを実際に試す
+- サムネイル `_thumb.jpg` 命名で問題がないか確認する
+- `work_title` / `characters` を入力してみる
+- サムネイルクリックで実画像が開くか確認する
 
 ### Python自動化
 
@@ -61,8 +75,9 @@
 ---
 
 ## Doing
-
-- [ ] ObsidianとGitHubを使った進捗管理の初期構成作成
+- Obsidian資料管理用のメタデータテンプレート検証
+- Bases / Notes Explorer による一覧表示検証
+- Python自動化前の手動運用テスト
 
 ---
 
@@ -82,3 +97,11 @@
 
 - [x] Notionは最初は使わず、ObsidianとGitHubで進める方針に決定
 - [x] `docs/00_project_overview.md` を既存の概要ページとして扱う方針に決定
+- [x] ObsidianとGitHubを使った進捗管理の初期構成作成
+- 新しい検証用兼運用Vaultを作成
+- 最小フォルダ構成を確認
+- `metadata-template v1.1` を使って手動ノート作成を実施
+- 資料ノートIDを `REF-YYYYMMDD-HHMMSS` 形式にする方針を決定
+- 作者・作品・キャラクター用プレフィックスとして `AUTH` / `WORK` / `CHAR` を使う方針を決定
+- サムネイルに `_thumb` を付ける方針を決定
+- 作品名・キャラクター名をタグではなく専用プロパティにする方針を決定
