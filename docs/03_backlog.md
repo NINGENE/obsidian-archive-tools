@@ -25,9 +25,15 @@
 - キャラクターノートテンプレート v1 を作るか検討する
 - `virtual_folders` / `vfolders` の命名を最終決定する
 - タグ運用ルールを整理する
-- [x]  Bases formulaでサムネイル表示する方法を検証する
-- [x] Notes Explorerが資料ブラウザとして使えるか検証する
 - 自作アプリでギャラリー表示サイズ変更を要件化する
+- 自作アプリで表示モード切り替え機能を検討する
+	- メディアサムネイル表示
+	- ノートプレビュー表示
+	- メタデータ付きカード表示
+	- 詳細リスト表示
+- 自作アプリで、サムネイルと一緒に表示するプロパティを選べるようにする
+- Notes Explorer的な「ノートそのもののプレビュー表示」を自作アプリUI要件として検討する
+- Bases的な「thumbnailプロパティ画像のみのギャラリー表示」を自作アプリUI要件として検討する
 
 ---
 
@@ -35,16 +41,16 @@
 
 ### Obsidian運用
 
-- [x] メタデータテンプレート v1.1 を実ファイルでテストする
+- `metadata-template v1.3` のBases関連記述を実検証結果に合わせて更新する
+	- `thumbnail` プロパティをBases表示用として明記
+	- `thumbnail` パスはクォートなしにする
+	- `cover` / Bases formula案は予備案に変更
+	- 「資料ノート」表記を必要に応じて「メディアノート」へ変更
 - [ ] virtual_folder フィールドの書き方を決める
 - [ ] tags と virtual_folder の使い分けルールを書く
 - [ ] Obsidian内でのリンク表記ルールを決める
-- `metadata-template v1.3` を `docs/10_specs/` に追加する
-- `metadata-template v1.3` を使って画像1枚を手動登録する
-- `REF-YYYYMMDD-HHMMSS` 形式のIDを実際に試す
-- サムネイル `_thumb.jpg` 命名で問題がないか確認する
 - `work_title` / `characters` を入力してみる
-- サムネイルクリックで実画像が開くか確認する
+
 
 ### Python自動化
 
@@ -98,6 +104,9 @@
 - [x] Notionは最初は使わず、ObsidianとGitHubで進める方針に決定
 - [x] `docs/00_project_overview.md` を既存の概要ページとして扱う方針に決定
 - [x] ObsidianとGitHubを使った進捗管理の初期構成作成
+- [x]   Bases formulaでサムネイル表示する方法を検証する
+- [x] Notes Explorerが資料ブラウザとして使えるか検証する
+- [x] メタデータテンプレート v1.1 を実ファイルでテストする
 - 新しい検証用兼運用Vaultを作成
 - 最小フォルダ構成を確認
 - `metadata-template v1.1` を使って手動ノート作成を実施
@@ -105,3 +114,14 @@
 - 作者・作品・キャラクター用プレフィックスとして `AUTH` / `WORK` / `CHAR` を使う方針を決定
 - サムネイルに `_thumb` を付ける方針を決定
 - 作品名・キャラクター名をタグではなく専用プロパティにする方針を決定
+- `metadata-template v1.3` を `docs/10_specs/` に追加する
+- `metadata-template v1.3` を使って画像1枚を手動登録する
+- `REF-YYYYMMDD-HHMMSS` 形式のIDを実際に試す
+- サムネイル `_thumb.jpg` 命名で問題がないか確認する
+- サムネイルクリックで実画像が開くか確認する
+- Basesで `thumbnail` プロパティをImage propertyに指定し、複数画像のサムネイル一覧表示ができることを確認
+- `cover` プロパティとBases formulaは一旦不要と判断
+- `thumbnail` パスはクォートなしで書く必要があることを確認
+- Notes ExplorerとBasesの表示思想の違いを確認
+	- Notes Explorerはノートそのもののプレビューに近い
+	- Basesは指定したthumbnail画像とプロパティ表示に向いている
