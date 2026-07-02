@@ -1,0 +1,28 @@
+vault_dir: "/path/to/ObsidianVault"
+
+inbox_dir: "ArtArchive_Inbox"
+processed_dir: "ArtArchive_Inbox/_processed"
+failed_dir: "ArtArchive_Inbox/_failed"
+
+originals_dir: "ArtArchive/originals/images"
+thumbnails_dir: "_assets/thumbnails"
+notes_dir: "10_References/Images"
+logs_dir: "ArtArchive/logs"
+
+id:
+  prefix: "REF"
+  format: "%Y%m%d-%H%M%S"
+  collision_suffix_digits: 3
+
+thumbnail:
+  max_size: 512
+  format: "jpg"
+  quality: 85
+  background: "white"
+
+defaults:
+  tags:
+    - inbox
+  virtual_folders:
+    - References/Unsorted
+  status: inboxめ
